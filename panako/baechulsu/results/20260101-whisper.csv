@@ -1,0 +1,10 @@
+Cluster ID,Match Start,Match Stop,Duration,Match Score,Query Path,language,avg_logprob,error
+1,93.472,112.912,19.44,102,panako/baechulsu/clips/20260101/clip_000031_093000.mp3,ko,-0.0627,
+1,104.336,116.496,12.16,233,panako/baechulsu/clips/20260101/clip_000033_099000.mp3,ko,-0.1731,
+2,2971.512,2985.912,14.4,328,panako/baechulsu/clips/20260101/clip_001037_3111000.mp3,ko,-0.1976,
+2,3051.648,3070.088,18.44,625,panako/baechulsu/clips/20260101/clip_001045_3135000.mp3,ko,-0.1945,
+2,3054.432,3071.184,16.75,682,panako/baechulsu/clips/20260101/clip_001046_3138000.mp3,ko,-0.1642,
+3,3406.96,3425.2,18.24,290,panako/baechulsu/clips/20260101/clip_001135_3405000.mp3,ko,-0.1228,
+3,3410.752,3426.552,15.8,271,panako/baechulsu/clips/20260101/clip_001136_3408000.mp3,ko,-0.1888,
+4,7010.304,7019.584,9.28,310,panako/baechulsu/clips/20260101/clip_002335_7005000.mp3,ko,-0.178,
+4,7048.16,7064.928,16.77,123,panako/baechulsu/clips/20260101/clip_002349_7047000.mp3,ko,-0.1494,

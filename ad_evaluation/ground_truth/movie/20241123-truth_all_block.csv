@@ -1,0 +1,27 @@
+ground_truth = {
+    '20241123': [
+        {'start': 09.05, 'end': 28.55, 'type': 'AD'},
+        {'start': 29.17, 'end': 142.05, 'type': 'DJ'},  
+        {'start': 42.05, 'end': 335.99, 'type': 'MUSIC' } #Juice (Breakbot Mix),Lizzo
+        {'start': 335.99, 'end': 449.60, 'type': 'DJ'}
+        {'start': 449.60, 'end': 549.67, 'type': 'AD'}
+        {'start': 569.78, 'end': 629.61, 'type': 'AD'}
+        {'start': 645.09, 'end': 791.20, 'type': 'MUSIC'} # I Ain't Worried,OneRepublic
+        {'start': 791.20, 'end': 943.88, 'type': 'DJ'}
+        {'start': 943.88, 'end': 1381.02, 'type': 'MUSIC'}#Loving You, Minnie Riperton / Your Song (From "Rocketman"),Taron Egerton
+        {'start': 1381.02, 'end': 1538.09, 'type': 'DJ' }
+        {'start': 1538.09, 'end': 1662.94, 'type': 'MUSIC'} #봄날은 간다,조유리
+        {'start': 1745.00, 'end': 1825.09, 'type': 'AD'}
+        {'start': 1925.15, 'end': 2075.98, 'type': 'MUSIC'} #The Life of Riley (From "Inside Out 2"/Score),Andrea Datzman
+        {'start': 2075.98, 'end': 2431.82, 'type': 'DJ'}
+        {'start': 2431.82, 'end': 2609.62, 'type': 'MUSIC'} #내게 온 사랑,이형석
+        {'start': 2609.62, 'end': 2717.10, 'type': 'DJ'}
+        {'start': 2717.10, 'end': 2983.88, 'type': 'MUSIC'} #처음부터 지금까지,Ryu (류)
+        {'start': 2983.88, 'end': 3123.81, 'type': 'AD'}
+        {'start': 3158.27, 'end': 3269.47, 'type': 'DJ'}
+        {'start': 3269.47, 'end': 3445.14, 'type': 'MUSIC'} #첫눈처럼 너에게 가겠다,에일리
+        {'start': 3445.14, 'end': 3469.44, 'type': 'AD'}
+        {'start': 3489.98, 'end': 3549.47, 'type': 'AD'}
+        {'start': 3589.00, 'end': 3620.05, 'type': 'AD'}
+    ],
+}

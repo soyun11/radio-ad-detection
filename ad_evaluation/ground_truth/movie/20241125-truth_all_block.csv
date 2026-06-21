@@ -1,0 +1,30 @@
+ground_truth = {
+    '20241125': [
+        {'start': 8.49, 'end': 28.02, 'type': 'AD'},
+        {'start': 28.73, 'end': 134.71, 'type': 'DJ'},
+        {'start': 134.71, 'end': 374.40, 'type': 'MUSIC'}, #You Got Me,Colbie Caillat
+        {'start': 374.40, 'end': 513.08, 'type': 'DJ'},
+        {'start': 513.08, 'end': 613.03, 'type': 'AD'},
+        {'start': 633.12, 'end': 699.09, 'type': 'AD'},
+        {'start': 713.55, 'end': 865.85, 'type': 'DJ'},
+        {'start': 865.85, 'end': 967.37, 'type': 'MUSIC'}, #Hello Zepp,Charlie Clouser
+        {'start': 967.37, 'end': 1093.34, 'type': 'DJ'}, 
+        {'start': 1093.34, 'end': 1337.45, 'type': 'MUSIC'},#Ghostbusters,Ray Parker Jr.
+        {'start': 1337.45, 'end': 1465.88, 'type': 'DJ'},
+        {'start': 1465.88, 'end': 1662.88, 'type': 'MUSIC'}, #Streets Of Philadelphia,Bruce Springsteen
+        {'start': 1744.37, 'end': 1823.61, 'type': 'AD'},
+        {'start': 1925.07, 'end': 2050.25, 'type': 'MUSIC'}, #블루시티,Various Artists
+        {'start': 2050.25, 'end': 2056.00, 'type': 'DJ'},
+        {'start': 2056.00, 'end': 2071.86, 'type': 'MUSIC'}, #The Batman Theme,Danny Elfman
+        {'start': 2071.86, 'end': 2327.07, 'type': 'DJ'},
+        {'start': 2327.07, 'end': 2443.63, 'type': 'MUSIC'}, #Let It Snow! Let It Snow! Let It Snow!,Robbie Williams
+        {'start': 2443.63, 'end': 2594.80, 'type': 'DJ'},
+        {'start': 2594.80, 'end': 2766.20, 'type': 'MUSIC'}, #Snow Frolice,Various Artists
+        {'start': 2766.20, 'end': 2906.16, 'type': 'AD'},
+        {'start': 2940.55, 'end': 3142.23, 'type': 'DJ'}, #하모니,(제아 ,이영현)
+        {'start': 3142.23, 'end': 3444.58, 'type': 'MUSIC'},
+        {'start': 3449.67, 'end': 3469.09, 'type': 'AD'},
+        {'start': 3489.50, 'end': 3549.34, 'type': 'AD'},
+        {'start': 3588.47, 'end': 3620.06, 'type': 'AD'},
+    ],
+}

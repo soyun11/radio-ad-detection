@@ -1,0 +1,2 @@
+﻿program,gap,days,TP,FP,FN,Precision,Recall,F1,ad_total,AD_TP,AD_FN,AD_FP,AD_Precision,AD_Recall,AD_F1
+movie,30,9,7413,475,620,0.9398,0.9228,0.9312,382,348,34,2,0.9943,0.911,0.9508

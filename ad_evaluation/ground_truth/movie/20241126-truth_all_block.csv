@@ -1,0 +1,26 @@
+ground_truth = {
+    '20241126': [
+        {'start': 11.24, 'end': 30.96, 'type': 'AD'},
+        {'start': 39.18, 'end': 139.31, 'type': 'DJ'},
+        {'start': 139.31, 'end': 589.49, 'type': 'MUSIC'}, #Defying Gravity (Feat. Ariana Grande),Cynthia Erivo
+        {'start': 589.49, 'end': 799.35, 'type': 'DJ'},
+        {'start': 799.35, 'end': 909.44, 'type': 'AD'},
+        {'start': 899.44, 'end': 999.34, 'type': 'AD'},
+        {'start': 999.34, 'end': 1174.53, 'type': 'DJ'},
+        {'start': 1174.53, 'end': 1426.16, 'type': 'MUSIC'}, #The Whole Nine Yards,(吉俣良 / Ryo Yoshimata)
+        {'start': 1426.16, 'end': 1563.01, 'type': 'DJ'},
+        {'start': 1563.01, 'end': 1665.57, 'type': 'MUSIC'}, #City Of Stars / May Finally Come True (Feat. Ryan Gosling, Emma Stone),Justin Hurwitz
+        {'start': 1747.30, 'end': 1826.50, 'type': 'AD'},
+        {'start': 1928.05, 'end': 1944.31, 'type': 'MUSIC'}, #Oompa Loompa,(Hugh Grant ,Timothée Chalamet)
+        {'start': 1944.31, 'end': 2338.27, 'type': 'DJ/GUEST'},
+        {'start': 2338.27, 'end': 2534.01, 'type': 'MUSIC'}, #Just Look Up (From Don’t Look Up),(Ariana Grande ,Kid Cudi)
+        {'start': 2534.01, 'end': 2956.59, 'type': 'DJ/GUEST'},
+        {'start': 2956.59, 'end': 3096.48, 'type': 'AD'},
+        {'start': 3116.94, 'end': 3136.97, 'type': 'AD'},
+        {'start': 3151.54, 'end': 3261.98, 'type': 'DJ'},
+        {'start': 3261.98, 'end': 3447.47, 'type': 'MUSIC'}, #Popular,Ariana Grande
+        {'start': 3452.46, 'end': 3471.82, 'type': 'AD'},
+        {'start': 3492.27, 'end': 3551.63, 'type': 'AD'},
+        {'start': 3591.26, 'end': 3620.05, 'type': 'AD'},
+    ],
+}

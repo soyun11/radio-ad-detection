@@ -1,0 +1,2 @@
+﻿program,gap,days,TP,FP,FN,Precision,Recall,F1,ad_total,AD_TP,AD_FN,AD_FP,AD_Precision,AD_Recall,AD_F1
+noon,30,9,7827,1486,909,0.8404,0.8959,0.8673,343,307,36,11,0.9654,0.895,0.9289

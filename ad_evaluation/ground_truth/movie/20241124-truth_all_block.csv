@@ -1,0 +1,31 @@
+ground_truth = {
+    '20241124': [
+        {'start': 8.72, 'end': 28.23, 'type': 'AD'},
+        {'start': 36.10, 'end': 144.34,'type': 'DJ'},
+        {'start': 144.34, 'end': 342.95,'type': 'MUSIC'}, #A Winter Story (From 'Love Letter' Soundtrack),Remedios
+        {'start': 342.95, 'end': 429.15,'type': 'DJ'},
+        {'start': 429.15, 'end': 529.06,'type': 'AD'},
+        {'start': 549.09, 'end': 608.97,'type': 'AD'},
+        {'start': 608.97, 'end': 732.44,'type': 'MUSIC'}, #Moon River (From 'Breakfast at Tiffany's' Original Soundtrack),Audrey Hepburn
+        {'start': 732.44, 'end': 888.38,'type': 'DJ'},
+        {'start': 888.38, 'end': 1423.54,'type': 'MUSIC'}, #함께 있으면 좋을 사람,최재훈/가만히 눈을 감고 (New Version),정재욱
+        {'start': 1423.54, 'end': 1548.77,'type': 'DJ'},
+        {'start': 1548.77, 'end': 1663.22,'type': 'MUSIC'}, #You’re Christmas To Me,Sam Ryder
+        {'start': 1744.57, 'end': 1823.86,'type': 'AD'},
+        {'start': 1925.52, 'end': 2114.34,'type': 'MUSIC'}, #Eli's Theme (From "Let the Right One In"),City Of Prague Philharmonic Orchestra/Woo Hoo,5.6.7.8's
+        {'start': 2114.34, 'end': 2228.81,'type': 'DJ'},
+        {'start': 2228.81, 'end': 2406.25,'type': 'MUSIC'}, #Vacation,The Go-Go's
+        {'start': 2406.25, 'end': 2508.18,'type': 'DJ'},
+        {'start': 2508.18, 'end': 2614.67,'type': 'MUSIC'}, #누가 죄인인가,(정성화 ,조재윤 ,배정남 ,이현우)/Do You Hear The People Sing?,(Aaron Tveit ,Eddie Redmayne ,Students ,Les M)/Overture/And All That Jazz,Catherine Zeta-Jones
+        {'start': 2614.67, 'end': 2633.05,'type': 'DJ'}, 
+        {'start': 2633.05, 'end': 2740.20,'type': 'MUSIC'},#짜파구리,정재일
+        {'start': 2740.20, 'end': 2792.44,'type': 'DJ'},
+        {'start': 2792.44, 'end': 2992.32,'type': 'MUSIC'}, #Roxie,Renee Zellweger
+        {'start': 2992.32, 'end': 3132.14,'type': 'AD'},
+        {'start': 3166.76, 'end': 3255.89,'type': 'DJ'},
+        {'start': 3255.89, 'end': 3444.63,'type': 'MUSIC'}, #Yes Sir, I Can Boogie,Baccara
+        {'start': 3444.63, 'end': 3469.15,'type': 'AD'},
+        {'start': 3489.76, 'end': 3549.44,'type': 'AD'},
+        {'start': 3589.17, 'end': 3620.06,'type': 'AD'},
+    ],
+}

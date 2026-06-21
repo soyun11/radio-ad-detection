@@ -1,0 +1,25 @@
+ground_truth = {
+    '20241127': [
+        {'start': 11.11, 'end': 30.53, 'type': 'AD'},
+        {'start': 63.93, 'end': 130.17, 'type': 'DJ'},
+        {'start': 130.17, 'end': 358.74, 'type': 'MUSIC'}, #Remembering You,Steven Curtis Chapman
+        {'start': 358.74, 'end': 523.15, 'type': 'DJ'},
+        {'start': 523.15, 'end': 602.74, 'type': 'AD'},
+        {'start': 622.98, 'end': 743.15, 'type': 'AD'},
+        {'start': 763.21, 'end': 1276.59, 'type': 'DJ/GUEST'},
+        {'start': 1276.59, 'end': 1471.87, 'type': 'MUSIC'}, #1도 없어,Apink (에이핑크)
+        {'start': 1471.87, 'end': 1630.67, 'type': 'DJ/GUEST'},
+        {'start': 1630.67, 'end': 1665.62, 'type': 'MUSIC'}, #가오만사성,두번째달
+        {'start': 1747.13, 'end': 1826.52, 'type': 'AD'},
+        {'start': 1927.61, 'end': 2428.66, 'type': 'DJ/GUEST'},
+        {'start': 2428.66, 'end': 2648.69, 'type': 'MUSIC'}, #괜찮아도 괜찮아 (That's okay),도경수(D.O.)
+        {'start': 2648.69, 'end': 2951.24, 'type': 'DJ/GUEST'},
+        {'start': 2951.24, 'end': 3091.40, 'type': 'AD'},
+        {'start': 3111.72, 'end': 3131.59, 'type': 'AD'},
+        {'start': 3183.77, 'end': 3375.48, 'type': 'DJ'},
+        {'start': 3375.48, 'end': 3452.11, 'type': 'MUSIC'}, #어른,Sondia
+        {'start': 3452.11, 'end': 3471.67, 'type': 'AD'},
+        {'start': 3492.08, 'end': 3551.72, 'type': 'AD'},
+        {'start': 3591.16, 'end': 3620.06, 'type': 'AD'},
+    ],
+}

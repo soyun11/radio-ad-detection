@@ -1,0 +1,2 @@
+﻿program,gap,days,TP,FP,FN,Precision,Recall,F1,ad_total,AD_TP,AD_FN,AD_FP,AD_Precision,AD_Recall,AD_F1
+baechulsu,30,8,8128,543,1775,0.9374,0.8208,0.8752,491,418,73,12,0.9721,0.8513,0.9077

@@ -1,0 +1,22 @@
+ground_truth = {
+    '20241127': [
+        {'start': 11.00, 'end': 30.54, 'type': 'AD'},
+        {'start': 38.50, 'end': 142.38, 'type': 'DJ'},
+        {'start': 142.38, 'end': 311.13, 'type': 'MUSIC'}, #Such A Night (LP Version),Dr. John
+        {'start': 311.13, 'end': 469.80, 'type': 'DJ'},
+        {'start': 469.80, 'end': 570.13, 'type': 'AD'},
+        {'start': 590.17, 'end': 690.17, 'type': 'AD'},
+        {'start': 710.39, 'end': 884.78, 'type': 'DJ'},
+        {'start': 884.78, 'end': 1058.29, 'type': 'MUSIC'}, #Bellbottoms,The Jon Spencer Blues Explosion
+        {'start': 1058.29, 'end': 1300.47, 'type': 'DJ'},
+        {'start': 1300.47, 'end': 1665.31, 'type': 'MUSIC'}, #Jump,Girls Aloud/#Do You Want to Build a Snowman? (From "Frozen"/Soundtrack Version),(Kristen Bell ,Agatha Lee Monn ,Katie Lopez)
+        {'start': 1746.86, 'end': 1826.51, 'type': 'AD'}, 
+        {'start': 1927.75, 'end': 3091.68, 'type': 'DJ/GUEST'}, 
+        {'start': 3091.68, 'end': 3231.47, 'type': 'AD'},
+        {'start': 3251.90, 'end': 3271.66, 'type': 'AD'},
+        {'start': 3312.24, 'end': 3447.05, 'type': 'DJ'},
+        {'start': 3452.09, 'end': 3471.55, 'type': 'AD'},
+        {'start': 3491.83, 'end': 3551.67, 'type': 'AD'},
+        {'start': 3590.88, 'end': 3620.06, 'type': 'AD'},
+    ],
+}

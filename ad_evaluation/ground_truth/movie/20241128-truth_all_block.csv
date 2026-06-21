@@ -1,0 +1,27 @@
+ground_truth = {
+    '20241127': [
+        {'start': 11.00, 'end': 30.54, 'type': 'AD'},
+        {'start': 63.66,'end': 141.19, 'type': 'DJ'}, 
+        {'start': 141.19,'end': 268.56, 'type': 'MUSIC'}, #Prologue,John Williams
+        {'start': 268.56,'end': 465.07, 'type': 'DJ'},
+        {'start': 465.07,'end': 544.61, 'type': 'AD'},
+        {'start': 564.97,'end': 685.00, 'type': 'AD'},
+        {'start': 705.07,'end': 854.03, 'type': 'DJ'},
+        {'start': 854.03,'end': 1044.18, 'type': 'MUSIC'}, #Immortals (From "Big Hero 6"/Soundtrack),Fall Out Boy
+        {'start': 1044.18,'end': 1211.19, 'type': 'DJ'},
+        {'start': 1211.19,'end': 1408.69, 'type': 'MUSIC'}, #Under the Tree (from “That Christmas”),Ed Sheeran
+        {'start': 1408.69,'end': 1509.55, 'type': 'DJ'},
+        {'start': 1509.55,'end': 1625.23, 'type': 'MUSIC'}, #Eres Tu,Mocedades
+        {'start': 1796.97,'end': 1876.49, 'type': 'AD'},
+        {'start': 1888.50,'end': 2416.98, 'type': 'DJ/GUEST'},
+        {'start': 2416.98,'end': 2602.96, 'type': 'MUSIC'}, #저 너머로 (엔딩 크레딧 버전) (feat. Te Vaka), 나연(TWICE)
+        {'start': 2602.96,'end': 2923.98, 'type': 'DJ/GUEST'},
+        {'start': 2923.98,'end': 3063.81, 'type': 'AD'},
+        {'start': 3084.04,'end': 3103.90, 'type': 'AD'},
+        {'start': 3158.68,'end': 3255.84, 'type': 'DJ'},
+        {'start': 3255.84,'end': 3411.71, 'type': 'MUSIC'}, #Christmas Tree,V
+        {'start': 3411.71,'end': 3611.57, 'type': 'AD'},
+        {'start': 3451.75,'end': 3511.58, 'type': 'AD'},
+        {'start': 3550.98,'end': 3590.01, 'type': 'AD'},
+    ],
+}
