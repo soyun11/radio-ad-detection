@@ -2,8 +2,10 @@
 
 > 장시간 라디오 방송에서 광고(AD) 블록을 분리·탐지하고, LLM으로 광고 메타데이터(회사명/제품명)를 추출하는 파이프라인
 
-- 📄 [Interspeech 2026 논문](./docs/paper.pdf) — *Hybrid Role-Aware Structural Modeling and Semantic Extraction for Long-Form Radio Broadcasts*
+[![Paper](https://img.shields.io/badge/Paper-Interspeech%202026-blue?style=flat-square)](./docs/paper.pdf) Chungnam National University, Data Network Research Lab
+
 - 👥 충남대학교 데이터네트워크 연구실 팀 프로젝트
+- 🔗 전체 파이프라인(DJ/Music/AD)은 [팀 메인 repo](https://github.com/jaehyun429/radio-structuring)에서 확인할 수 있습니다
 
 ---
 
@@ -76,6 +78,7 @@ KBS, MBC, SBS 세 방송사 각각의 방송 구조를 시각화한 결과입니
 ---
 
 ## Tech Stack
+
 <p>
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white"/>
 <img src="https://img.shields.io/badge/Panako-FF6F00?style=for-the-badge"/>
@@ -116,6 +119,19 @@ python ad_evaluation/scripts/evaluate_individual_ads_v4_new.py
 # 7. 결과 시각화
 python ad_evaluation/scripts/make_radio_timeline.py
 ```
+
+---
+
+## Requirements
+
+```bash
+pip install -r requirements.txt
+```
+
+External:
+- [Panako](https://github.com/JorenSix/Panako) — 오디오 핑거프린팅 (별도 설치 및 인덱싱 필요)
+- [faster-whisper](https://github.com/SYSTRAN/faster-whisper)
+- OpenAI API key (entity 추출용)
 
 ---
 
