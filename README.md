@@ -84,7 +84,6 @@ KBS, MBC, SBS 세 방송사 각각의 방송 구조를 시각화한 결과입니
 <img src="https://img.shields.io/badge/GPT--4o-412991?style=for-the-badge&logo=openai&logoColor=white"/>
 <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
 </p>
-`Python` `Panako (Audio Fingerprinting)` `faster-whisper` `sentence-transformers` `GPT-4o` `pandas`
 
 ---
 
