@@ -1,14 +1,30 @@
 # Radio Advertisement Detection
 
-> 장시간 라디오 방송에서 광고(AD) 블록을 분리·탐지하고, LLM으로 광고 메타데이터(회사명/제품명)를 추출하는 파이프라인.
-> [Interspeech 2026 논문](./docs/paper.pdf) "Hybrid Role-Aware Structural Modeling and Semantic Extraction for Long-Form Radio Broadcasts"의 일부.
-> 충남대학교 데이터네트워크 연구실 팀 프로젝트 — **이 repo는 제가 담당한 광고(AD) 분리·평가·LLM 추출 파트**입니다. (DJ/음악 분리는 팀원 담당)
+> 장시간 라디오 방송에서 광고(AD) 블록을 분리·탐지하고, LLM으로 광고 메타데이터(회사명/제품명)를 추출하는 파이프라인
+
+- 📄 [Interspeech 2026 논문](./docs/paper.pdf) — *Hybrid Role-Aware Structural Modeling and Semantic Extraction for Long-Form Radio Broadcasts*
+- 👥 충남대학교 데이터네트워크 연구실 팀 프로젝트
+
+---
+
+## Authors
+
+- **정재현** — DJ 블록 분류 (휴리스틱 기반 화자 역할 앵커링, DJ 사연 LLM 요약)
+- **박경서** — 음악 블록 분류 알고리즘
+- **박소윤** — 광고 블록 분류 *(본 repo 담당)*
+- **이영석** — 지도교수
+
+---
 
 ## My Role
+
+**이 repo는 팀 프로젝트 중 제가 담당한 광고(AD) 분리·평가·LLM 추출 파트입니다.**
 
 - **Panako 기반 cross-day audio fingerprint matching**으로 반복되는 광고 탐지 구현 (`panako/`)
 - 여러 버전의 탐지 알고리즘 평가 (baseline → v4 → v5) 및 성능 비교 (`ad_evaluation/`, `ad_debug/`)
 - GPT 기반 광고 회사명·제품명 추출 (`ad_evaluation/scripts/evaluate_individual_ads_v4_new.py`)
+
+---
 
 ## Pipeline
 
@@ -28,6 +44,8 @@ ad_evaluation/scripts/make_radio_timeline.py        → 결과 시각화
 
 > 입력 의존성: 화자 역할(DJ/Music/AD) 분류 결과는 팀원이 담당한 별도 모듈에서 생성됩니다.
 
+---
+
 ## Results
 
 30일치 KBS/MBC/SBS 라디오 방송 데이터 기준:
@@ -44,6 +62,7 @@ ad_evaluation/scripts/make_radio_timeline.py        → 결과 시각화
 ### Visualizations
 
 **탐지 성능 비교**
+
 ![ad detection performance](ad_debug/results/ad_detection_performance.png)
 
 **라디오 방송 타임라인 (DJ/Music/AD 블록)**
@@ -54,8 +73,13 @@ KBS, MBC, SBS 세 방송사 각각의 방송 구조를 시각화한 결과입니
 ![MBC timeline](ad_evaluation/results/timeline/20241125-timeline-3labels.png)
 ![SBS timeline](ad_evaluation/results/timeline/20241121-timeline-3labels.png)
 
+---
+
 ## Tech Stack
+
 `Python` `Panako (Audio Fingerprinting)` `faster-whisper` `sentence-transformers` `GPT-4o` `pandas`
+
+---
 
 ## How It Runs
 
@@ -87,5 +111,8 @@ python ad_evaluation/scripts/evaluate_individual_ads_v4_new.py
 python ad_evaluation/scripts/make_radio_timeline.py
 ```
 
+---
+
 ## Note
+
 원본 라디오 mp3와 Panako fingerprint DB는 용량(수십 GB) 및 저작권 문제로 제외했습니다. 코드와 평가 결과만 포함되어 있습니다.
