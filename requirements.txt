@@ -1,5 +1,11 @@
-faster-whisper
-sentence-transformers
-openai
-pandas
-matplotlib
+faster-whisper==1.2.1
+sentence-transformers==5.2.3
+openai==2.20.0
+pandas==2.3.3
+matplotlib==3.10.8
+numpy==1.26.4
+librosa==0.11.0
+soundfile==0.13.1
+scipy==1.15.3
+python-dotenv==1.2.1
+tqdm==4.67.3
