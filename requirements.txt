@@ -1,0 +1,5 @@
+faster-whisper
+sentence-transformers
+openai
+pandas
+matplotlib
